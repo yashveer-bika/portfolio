@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
         <p>
           Hello, I'm <b>Yashveer</b>. I'm a software engineer and M.S 
           Computer Science student at University of Minnesota. Check 
-          out my <a href="https://github.com/yashveer-bika">Github profile</a>, <a href="https://github.com/yashveer-bika">interactive portfolio [TODO: change link, make portfolio pages]</a>, and <a href="https://www.overleaf.com/read/dchnnrthggft">resume</a>. 
+          out my <a href="https://github.com/yashveer-bika">Github </a>, <a href="https://github.com/yashveer-bika">interactive portfolio [TODO: change link, make portfolio pages]</a>, and <a href="https://www.overleaf.com/read/dchnnrthggft">resume</a>. 
         </p>
       </section>
 
