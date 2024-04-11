@@ -17,6 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          defer
+          src="https://analytics.us.umami.is/script.js"
+          data-website-id="fb9d3543-fc8c-49ca-8e55-33946627e3c3"
+        ></script>
+      </head>
       <body className={inter.className}>
         <div className="flex flex-col items-center text-black bg-white min-h-screen">
           {/* TODO: loading bar animation */}
