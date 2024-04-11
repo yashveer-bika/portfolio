@@ -42,7 +42,7 @@ function NavLinks() {
 function ChangeDirBlock() {
   // TODO: make this a complete idea. Have it look like a Terminal, implement basic commands, (ls, cd)
   const pathname = usePathname();
-  return <div>cd {pathname}</div>;
+  return <div className="font-bold text-xl">cd {pathname}</div>;
 }
 
 export function Navbar() {

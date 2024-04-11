@@ -28,7 +28,7 @@ export default function Home() {
         <div>Contact me if you see broken links, bugs, etc.</div>
       </div>
 
-      <div className="flex w-full text-3xl">
+      {/* <div className="flex w-full text-3xl">
         <div className="flex gap-2 items-center">
           <div>/current-projects</div>
           <a href={"/projects"} target="_blank">
@@ -38,7 +38,6 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* TODO: pick the 2 most recent projects */}
         <ProjectPreview
           projectName={"TireBob"}
           projectUrl={"https://www.tirebob.com/provider"}
@@ -58,7 +57,7 @@ export default function Home() {
           imgAlt="tirebob-provider-home"
         />
 
-        {/* <ProjectPreview
+        <ProjectPreview
           projectName={"TireBob"}
           projectUrl={"https://www.tirebob.com/provider"}
           description="Platform for people to request auto servicing, and shops to buy hot
@@ -75,8 +74,8 @@ export default function Home() {
           ]}
           imgSrc={"/tirebob-provider-home.png"}
           imgAlt="tirebob-provider-home"
-        /> */}
-      </div>
+        />
+      </div> */}
     </div>
   );
 }
