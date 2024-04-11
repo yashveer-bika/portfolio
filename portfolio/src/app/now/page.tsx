@@ -6,7 +6,7 @@ export default function Page() {
       <div className="flex w-full text-3xl">/now</div>
 
       <ul className="flex flex-col gap-2">
-        <li>Get auto shops onboarded to TireBob</li>
+        <li>Get 50 Minneapolis shops onboarded to TireBob</li>
         <li>Making pretty stuff with React</li>
         <li>
           Playing with{" "}
@@ -44,7 +44,7 @@ export default function Page() {
         <li>Going to India for a few weeks</li>
       </ul>
 
-      <div className="border-b w-full"/>
+      <div className="border-b w-full" />
 
       <div>
         Thanks to{" "}

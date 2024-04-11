@@ -32,7 +32,9 @@ function NavLinks() {
     <div className="">
       <div className="flex gap-4">
         {navlinks.map((nav) => (
-          <Link href={nav.url}>{nav.name}</Link>
+          <Link key={nav.name} href={nav.url}>
+            {nav.name}
+          </Link>
         ))}
       </div>
     </div>
