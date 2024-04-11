@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/Nav/Navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -16,7 +17,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex flex-col items-center bg-white min-h-screen">
+          {/* TODO: loading bar animation */}
+          <div className="flex flex-col items-center max-w-[1028px]">
+            <div className="h-32 w-screen max-w-[1028px]">
+              <Navbar />
+            </div>
+
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
