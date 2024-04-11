@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
-import { SiGmail, SiSpotify } from "react-icons/si";
+import { SiGmail, SiSpotify, SiUmami } from "react-icons/si";
 
 export default function Page() {
   return (
@@ -30,6 +30,12 @@ export default function Page() {
       <Link href="https://open.spotify.com/user/yashubika000?si=007d845b61be41d2" target={"_blank"}>
         <div className="flex gap-2 items-center">
           {<SiSpotify />} yashubika000
+        </div>
+      </Link>{" "}
+
+      <Link href="https://analytics.us.umami.is/websites/fb9d3543-fc8c-49ca-8e55-33946627e3c3" target={"_blank"}>
+        <div className="flex gap-2 items-center">
+          {<SiUmami />} Click here to see where site views come from.
         </div>
       </Link>{" "}
       {/* <div>Use umami analytics on site</div> */}
