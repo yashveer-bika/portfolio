@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col items-center bg-white min-h-screen">
+        <div className="flex flex-col items-center text-black bg-white min-h-screen">
           {/* TODO: loading bar animation */}
           <div className="flex flex-col items-center max-w-[1028px]">
             <div className="h-32 w-screen max-w-[1028px]">
