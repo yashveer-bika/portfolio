@@ -59,11 +59,9 @@ export function ProjectPreview({
       <div className="p-2 border rounded-md ">
         <div className="flex flex-col gap-2">
           <img
-            className="rounded-md "
+            className="rounded-md w-full"
             src={imgSrc}
             alt={imgAlt}
-            width={10000}
-            height={10000}
           />
           <div className="flex gap-2">
             {githubUrl ? (
