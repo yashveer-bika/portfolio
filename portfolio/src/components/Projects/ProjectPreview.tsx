@@ -58,7 +58,7 @@ export function ProjectPreview({
 
       <div className="p-2 border rounded-md ">
         <div className="flex flex-col gap-2">
-          <Image
+          <img
             className="rounded-md "
             src={imgSrc}
             alt={imgAlt}
