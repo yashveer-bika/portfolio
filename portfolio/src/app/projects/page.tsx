@@ -46,9 +46,12 @@ export default function Page() {
           githubUrl="https://github.com/yashveer-bika/flow-milli"
           description="[In Progress] Visualizing operations interactively. Make an issue on Github for feature requests."
           technologies={[
-            <FaReact className="h-12 w-12 max-w-none" />,
-            <SiNextdotjs className="h-12 w-12 max-w-none" />,
-            <SiTailwindcss className="h-12 w-12 max-w-none" />,
+            <FaReact key="react" className="h-12 w-12 max-w-none" />,
+            <SiNextdotjs key="next.js" className="h-12 w-12 max-w-none" />,
+            <SiTailwindcss key="tailwind" className="h-12 w-12 max-w-none" />,
+            <FaReact key="react1" className="h-12 w-12 max-w-none" />,
+            <SiNextdotjs key="next.js1" className="h-12 w-12 max-w-none" />,
+            <SiTailwindcss key="tailwind1" className="h-12 w-12 max-w-none" />,
           ]}
           imgSrc={"/v0-flow-milli-graph.png"}
           imgAlt="flow-mill-DAG"
