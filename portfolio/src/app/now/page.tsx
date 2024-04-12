@@ -7,8 +7,8 @@ export default function Page() {
 
       <ul className="flex flex-col gap-2">
         <li>Get 50 Minneapolis shops onboarded to TireBob</li>
-        <li>Making pretty stuff with React</li>
-        <li>
+        <li>Building UI to add your own dependency graph on /flow-milli</li>
+        {/* <li>
           Playing with{" "}
           <a href="https://reasonml.github.io/" target={"_blank"}>
             Reason
@@ -20,7 +20,7 @@ export default function Page() {
           >
             create-melange-app
           </a>
-        </li>
+        </li> */}
         <li>Getting leaner</li>
       </ul>
 

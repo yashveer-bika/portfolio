@@ -22,7 +22,7 @@ export function ProjectPreview({
   imgSrc,
 }: ProjectPreviewProps) {
   return (
-    <div className="flex flex-col gap-4 bg-gray-50 border p-2 md:hover:scale-105">
+    <div className="flex flex-col gap-4 bg-gray-50 border p-5 rounded-md md:hover:scale-105">
       <div className="text-3xl font-bold">{projectName}</div>
       <div>{description}</div>
 
@@ -56,10 +56,10 @@ export function ProjectPreview({
         </div>
       </div>
 
-      <div className="p-2 border">
+      <div className="p-2 border rounded-md ">
         <div className="flex flex-col gap-2">
           <Image
-            className=""
+            className="rounded-md "
             src={imgSrc}
             alt={imgAlt}
             width={10000}

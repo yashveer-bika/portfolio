@@ -40,24 +40,19 @@ export default function Page() {
           imgAlt="tirebob-provider-home"
         />
 
-        {/* <ProjectPreview
-          projectName={"TireBob"}
-          projectUrl={"https://www.tirebob.com/provider"}
-          description="Platform for people to request auto servicing, and shops to buy hot
-      leads"
+        <ProjectPreview
+          projectName={"/flow-milli"}
+          projectUrl={"https://flow-milli.vercel.app/"}
+          githubUrl="https://github.com/yashveer-bika/flow-milli"
+          description="[In Progress] Visualizing operations interactively. Make an issue on Github for feature requests."
           technologies={[
             <FaReact className="h-12 w-12 max-w-none" />,
             <SiNextdotjs className="h-12 w-12 max-w-none" />,
             <SiTailwindcss className="h-12 w-12 max-w-none" />,
-            <TypeORMLogo className="h-12 w-12 max-w-none" />,
-            <SiNodedotjs className="h-12 w-12 max-w-none" />,
-            <SiExpress className="h-12 w-12 max-w-none" />,
-            <SiDocker className="h-12 w-12 max-w-none" />,
-            <SiAmazonec2 className="h-12 w-12 max-w-none" />,
           ]}
-          imgSrc={"/tirebob-provider-home.png"}
-          imgAlt="tirebob-provider-home"
-        /> */}
+          imgSrc={"/v0-flow-milli-graph.png"}
+          imgAlt="flow-mill-DAG"
+        />
       </div>
     </div>
   );
